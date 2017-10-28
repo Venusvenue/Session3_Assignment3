@@ -1,0 +1,216 @@
+Compnent of HADOOP:
+======================
+
+Hadoop Common- 
+A set of common libraries and utilities used by other Hadoop modules.
+============================================================================
+HDFS- 
+The default storage layer for Hadoop.
+============================================================================
+MapReduce- 
+Executes a wide range of analytic functions by analysing datasets in parallel before ‘reducing’ the results. 
+The “Map” job distributes a query to different nodes, and the “Reduce” gathers the results and resolves them into a single value.
+=================================================================================================================================
+YARN- 
+YARN stands for Yet Another Resource Negotiator. It is also called as MapReduce 2(MRv2).
+YARN is the cluster management layer of Hadoop. 
+Prior to 2.0, MapReduce was responsible for cluster management as well as processing. 
+The inclusion of YARN means you can run multiple applications in Hadoop (so you’re no longer limited to MapReduce), 
+which all share common cluster management.
+=================================================================================================================================
+
+Spark- 
+Used on top of HDFS, Spark promises speeds up to 100 times faster than the two-step MapReduce function in certain applications. 
+Allows data to loaded in-memory and queried repeatedly, 
+making it particularly apt for machine learning algorithms.
+=================================================================================================================================
+Hive-
+Apache Hive is another high level query language and data warehouse infrastructure built on top of Hadoop for providing data summarization, query and analysis. 
+It is initially developed by yahoo and made open source.
+Salient features of hive:
+
+•	SQL like query language called HQL.
+
+•	Partitioning and bucketing for faster data processing.
+
+•	Integration with visualization tools like Tableau.
+
+=================================================================================================================================
+
+HBase-
+
+Apache HBase is a NoSQL database built for hosting large tables with billions of rows and millions of columns on top of Hadoop commodity hardware machines. 
+Use Apache Hbase when you need random, realtime read/write access to your Big Data.
+Features:
+
+•	Strictly consistent reads and writes. In memory operations.
+
+•	Easy to use Java API for client access.
+
+•	Well integrated with pig, hive and sqoop.
+
+•	Is a consistent and partition tolerant system in CAP theorem.
+
+=================================================================================================================================
+
+Flume-
+
+Flume is a distributed, reliable, and available service for efficiently collecting, aggregating, 
+and moving large amounts of log data.
+
+Features:
+
+•	Robust
+
+•	Fault tolerant
+
+•	Simple and flexible Architecture based on streaming data flows.
+
+=================================================================================================================================
+
+Pig:
+
+Apache Pig is a high level language built on top of MapReduce for analyzing large datasets with simple adhoc data analysis programs.
+Pig is also known as Data Flow language. It is very well integrated with python. It is initially developed by yahoo.
+
+Salient features of pig:
+
+•	Ease of programming
+
+•	Optimization opportunities
+
+•	Extensibility.
+
+=================================================================================================================================
+
+Apache Sqoop-
+Apache Sqoop is a tool designed for bulk data transfers between relational databases and Hadoop.
+
+Features:
+
+•	Import and export to and from HDFS.
+
+•	Import and export to and from Hive.
+
+•	Import and export to HBase.
+
+
+=================================================================================================================================
+
+Cassandra:
+
+Cassandra is a NoSQL database designed for linear scalability and high availability. Cassandra is based on key-value model. Developed by Facebook and known for faster response to queries.
+
+Features:
+
+•	Column indexes
+
+•	Support for de-normalization
+
+•	Materialized views
+
+•	Powerful built-in caching.
+
+=================================================================================================================================
+
+Apache Oozie-
+
+Oozie is a workflow scheduler system to manage Apache Hadoop jobs.
+
+Features:
+
+•	Scalable, reliable and extensible system.
+
+•	Supports several types of Hadoop jobs such as Map-Reduce, Hive, Pig and Sqoop.
+
+•	Simple and easy to use.
+
+
+
+=================================================================================================================================
+
+Lucene:
+
+Apache LuceneTM is a high-performance, full-featured text search engine library written entirely in Java. 
+It is a technology suitable for nearly any application that requires full-text search, especially cross-platform.
+
+Features:
+
+•	Scalable, High – Performance indexing.
+
+•	Powerful, Accurate and Efficient search algorithms.
+
+•	Cross-platform solution.
+=================================================================================================================================
+Crunch:
+
+Apache crunch is built for pipelining MapReduce programs which are simple and efficient. 
+This framework is used for writing, testing and running MapReduce pipelines.
+
+Features:
+
+•	Developer focused.
+
+•	Minimal abstractions
+
+•	Flexible data model.
+=================================================================================================================================
+
+Avro:
+
+Apache Avro is a data serialization framework which is language neutral. 
+Designed for language portability, allowing data to potentially outlive the language to read and write it.
+
+=================================================================================================================================
+
+Mahout:
+
+Apache Mahout is a scalable machine learning library designed for building predictive analytics on Big Data. 
+Mahout now has implementations apache spark for faster in memory computing.
+
+Features:
+
+•	Collaborative filtering.
+
+•	Classification
+
+•	Clustering
+
+•	Dimensionality reduction
+
+=================================================================================================================================
+Thrift:
+
+Thrift is a language developed to build interfaces to interact with technologies built on Hadoop. 
+It is used to define and create services for numerous languages.
+
+=================================================================================================================================
+
+Drill:
+
+Apache Drill is a low latency SQL query engine for Hadoop and NoSQL.
+
+Features:
+
+•	Agility
+
+•	Flexibility
+
+•	Familiarilty.
+=================================================================================================================================
+Apache Zookeeper:
+
+Zookeeper is a centralized service designed for maintaining configuration information, naming, 
+providing distributed synchronization, and providing group services.
+
+Features:
+
+•	Serialization
+
+•	Atomicity
+
+•	Reliability
+
+•	Simple API
+
+=================================================================================================================================
